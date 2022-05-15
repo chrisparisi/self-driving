@@ -63,7 +63,7 @@ class Sensor {
         lerp(
           this.raySpread / 2,
           -this.raySpread / 2,
-          this.raycount == 1 ? 0.5 : i / (this.rayCount - 1)
+          this.rayCount == 1 ? 0.5 : i / (this.rayCount - 1)
         ) + this.car.angle;
 
       const start = { x: this.car.x, y: this.car.y };
